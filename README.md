@@ -18,15 +18,15 @@ O objetivo deste projeto foi conduzir uma análise exploratória de dados (EDA) 
 
 ### 2. Q1: Contagem de Registros por Espécie
 * **Análise:** Investigação da composição do dataset entre as três espécies disponíveis (*Adelie*, *Chinstrap* e *Gentoo*).
-* **Visualização:** Geração de um gráfico de barras (`FIG01_Q1_A1.png`) evidenciando a distribuição dos 344 registros válidos (com destaque para a espécie *Adelie* como a mais frequente, com 152 registros).
+* **Visualização:** Geração de um gráfico de barras, evidenciando a distribuição dos 344 registros válidos (com destaque para a espécie *Adelie* como a mais frequente, com 152 registros).
 
 ### 3. Q2: Distribuição da Massa Corporal entre as Espécies
 * **Análise:** Comparação das medidas descritivas (mínimo, quartis, mediana, máximo e média) da massa corporal (`body_mass_g`) agrupadas por espécie, utilizando 342 registros válidos.
-* **Visualização:** Construção de um **Boxplot** (`FIG02_Q2_A1.png`) que revelou visualmente a forte sobreposição de peso entre as espécies *Adelie* e *Chinstrap* (ambas com mediana de 3700 g) e a discrepância dos pinguins *Gentoo*, que se mostraram significativamente mais pesados (mediana de 5000 g), além de identificar *outliers* isolados.
+* **Visualização:** Construção de um **Boxplot** que revelou visualmente a forte sobreposição de peso entre as espécies *Adelie* e *Chinstrap* (ambas com mediana de 3700 g) e a discrepância dos pinguins *Gentoo*, que se mostraram significativamente mais pesados (mediana de 5000 g), além de identificar *outliers* isolados.
 
 ### 4. Q3: Relação entre Comprimento da Nadadeira e Massa Corporal
 * **Análise:** Investigação conjunta de pares de variáveis do mesmo indivíduo (`flipper_length_mm` e `body_mass_g`) em 342 registros válidos.
-* **Visualização:** Criação de um **Gráfico de Dispersão (Scatter Plot)** com distinção de cores por espécie (`FIG03_Q3_A1.png`), permitindo observar a tendência positiva de que pinguins com nadadeiras mais compridas tendem a apresentar maior massa corporal, com os *Gentoo* posicionados no extremo superior da distribuição.
+* **Visualização:** Criação de um **Gráfico de Dispersão (Scatter Plot)** com distinção de cores por espécie, permitindo observar a tendência positiva de que pinguins com nadadeiras mais compridas tendem a apresentar maior massa corporal, com os *Gentoo* posicionados no extremo superior da distribuição.
 
 ## 🔍 Limitações Analíticas
 Ressalta-se que a análise exploratória descreve padrões amostrais e associações observadas, mas **não comprova relações de causalidade** (por exemplo, o gráfico de dispersão mostra que as medidas andam juntas, mas não prova que o tamanho da nadadeira seja a causa direta da variação de peso).
